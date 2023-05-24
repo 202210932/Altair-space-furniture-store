@@ -37,9 +37,48 @@
         </nav>
 
     <!-- #1 products-section -->
-    
+
+    <main>
+        <section>
+        <div class="container"> 
+       <h1>Altair | Shopping Cart Demo</h1>
+       <br>
+       <h1>Currently in Cart</h1>
+
+       <div id="alerts"></div>
+     <div class="cart-container">
+       <h2>Cart</h2>
+       <table>
+         <thead>
+           <tr>
+           <th><strong>Product</strong></th>
+           <th><strong>Price</strong></th>
+         </tr>
+         </thead>
+         <tbody id="carttable">
+         </tbody>
+       </table>
+       <hr>
+       <table id="carttotals">
+         <tr>
+           <td><strong>Items</strong></td>
+           <td><strong>Total</strong></td>
+         </tr>
+         <tr>
+           <td>x <span id="itemsquantity">0</span></td>
+          
+           <td>$<span id="total">0</span></td>
+         </tr></table>
+
+         
+       <div class="cart-buttons">  
+         <button id="emptycart">Empty Cart</button>
+         <button id="checkout">Checkout</button>
+       </div>
+     </div>
+</div>
+</section> 
     <section class="trending-product" id="trending">
-        <div class="productcont">
         <div class="center-text">
             <h2><a id="product1">Cosmic <span>Tables</span></a></h2>
         </div>
@@ -51,7 +90,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -63,7 +101,8 @@
 
                 <div class="price">
                     <h4 class="productname">Elastic Edged Round Table Cloth Outer Space Table</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                     
                     
                 </div>
@@ -75,7 +114,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -87,7 +125,8 @@
 
                 <div class="price">
                     <h4 class="productname">Elastic Edged Round Table Cloth Astronomy Table</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -97,7 +136,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -109,7 +147,8 @@
 
                 <div class="price">
                     <h4 class="productname">Elastic Edged Round Table Cloth Taurus Table</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -119,7 +158,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -131,7 +169,8 @@
 
                 <div class="price">
                     <h4 class="productname">Elastic Edged Round Table Cloth Constellation Table</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
             
@@ -140,7 +179,6 @@
 
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -152,7 +190,8 @@
 
                 <div class="price">
                     <h4 class="productname">Elastic Edged Round Table Cloth Taurus Table</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -162,7 +201,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -174,7 +212,8 @@
 
                 <div class="price">
                     <h4 class="productname">Elastic Edged Round Table Cloth Virgo Table</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -183,7 +222,6 @@
 
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -195,7 +233,8 @@
 
                 <div class="price">
                     <h4 class="productname">Elastic Edged Round Table Cloth Zodiac Sign Table</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -205,7 +244,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -217,7 +255,8 @@
 
                 <div class="price">
                     <h4 class="productname">Elastic Edged Round Table Cloth Under Huge Moon Table</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -227,7 +266,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -239,7 +277,8 @@
 
                 <div class="price">
                     <h4 class="productname">Elastic Edged Round Table Cloth Cosmic Planet Nebula Table</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -249,7 +288,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -261,11 +299,12 @@
 
                 <div class="price">
                     <h4 class="productname">Elastic Edged Round Table Cloth Galaxy Table</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
         </div>
-    </div>
+
     </section>
     <!-- #2 products-section -->
     <section class="trending-product" id="trending">
@@ -280,7 +319,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -292,7 +330,8 @@
 
                 <div class="price">
                     <h4 class="productname">Astro Space White Als Bedsheets 100% Canadian Cotton</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -302,7 +341,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -314,7 +352,8 @@
 
                 <div class="price">
                     <h4 class="productname">Fashion Space planet moon Mars Saturn Bed Fitted Sheets</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -324,7 +363,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -336,7 +374,8 @@
 
                 <div class="price">
                     <h4 class="productname">Bedsheets Blue Star Printed Cotton Bed Sheet Set Single/Queen Size</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -346,7 +385,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -358,7 +396,8 @@
 
                 <div class="price">
                     <h4 class="productname">Fully garterized Canadian Cotton bedsheet with 2 pillow case set starry sky design</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
             
@@ -367,7 +406,6 @@
 
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -379,7 +417,8 @@
 
                 <div class="price">
                     <h4 class="productname">Universe Galaxy Cotton 3in1 bedsheet double size queen size king size</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -389,7 +428,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -401,7 +439,8 @@
 
                 <div class="price">
                     <h4 class="productname">Universe Galaxy Cotton 3in1 bedsheet double size queen size king size</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -410,7 +449,6 @@
 
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -422,7 +460,8 @@
 
                 <div class="price">
                     <h4 class="productname">Moon Space 4Corner Garterized High Quality Premium Canadian Cotton Bedsheet</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -432,7 +471,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -444,7 +482,8 @@
 
                 <div class="price">
                     <h4 class="productname">Bedsheet Full Garterized Canadian High Quality</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -454,7 +493,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -466,7 +504,8 @@
 
                 <div class="price">
                     <h4 class="productname">Outer Space Bedsheet for Single Bed, Double, Queen and King Size</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -476,7 +515,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -488,7 +526,8 @@
 
                 <div class="price">
                     <h4 class="productname">Fully Garterized Star Cosmic Bedsheet</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
         </div>
@@ -507,7 +546,7 @@
                 </div>
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -519,7 +558,8 @@
 
                 <div class="price">
                     <h4 class="productname">Dark Bean Bag Chair Sky Bean Bag Adults Bean Bag Kids Bean</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -529,7 +569,7 @@
                 </div>
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -541,7 +581,8 @@
 
                 <div class="price">
                     <h4 class="productname">Purple Galaxy Chair Bean Bag</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -551,7 +592,7 @@
                 </div>
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -563,7 +604,8 @@
 
                 <div class="price">
                     <h4 class="productname">Galaxy Chair Bean Bag</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -573,7 +615,7 @@
                 </div>
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -585,7 +627,8 @@
 
                 <div class="price">
                     <h4 class="productname">Outer Space Chair Bean Bag</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
             
@@ -594,7 +637,7 @@
 
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -606,7 +649,8 @@
 
                 <div class="price">
                     <h4 class="productname">Cosmic Galaxy Chair Bean Bag</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -616,7 +660,7 @@
                 </div>
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -628,7 +672,8 @@
 
                 <div class="price">
                     <h4 class="productname">Sofa Chair for Kid Outer-Space Themed</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -637,7 +682,7 @@
 
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -649,7 +694,8 @@
 
                 <div class="price">
                     <h4 class="productname">Chair Lounger with Space-Themed Washable Fabric</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -659,7 +705,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -671,7 +716,8 @@
 
                 <div class="price">
                     <h4 class="productname">Space Animal Print Chair Bean Bag</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -681,7 +727,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -693,7 +738,8 @@
 
                 <div class="price">
                     <h4 class="productname">Outer Space Galaxy Chair Bean Bag</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -703,7 +749,6 @@
                 </div>
                 <div class="heart-icon">
                     <i class="fa-regular fa-heart" style="color: red;"></i>
-                    <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -715,7 +760,8 @@
 
                 <div class="price">
                     <h4 class="productname">Full of Stars Chair Bean Bag</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
         </div>
@@ -734,7 +780,7 @@
                 </div>
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -746,7 +792,8 @@
 
                 <div class="price">
                     <h4 class="productname">Novelty Led Night Light Infinite Dodecahedron Color Art Lamp</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -756,7 +803,7 @@
                 </div>
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -768,7 +815,8 @@
 
                 <div class="price">
                     <h4 class="productname">Portable Mushroom Shaped LED Lamp Night Light Nightlight Lamp</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -778,7 +826,7 @@
                 </div>
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -790,7 +838,8 @@
 
                 <div class="price">
                     <h4 class="productname">Star Master Dream Rotating Projection Lamp</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -800,7 +849,7 @@
                 </div>
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -812,7 +861,8 @@
 
                 <div class="price">
                     <h4 class="productname">Galaxy Projector Light Astronaut Galaxy Projector Star Projector Night Lamp</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
             
@@ -821,7 +871,7 @@
 
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -833,7 +883,8 @@
 
                 <div class="price">
                     <h4 class="productname">Star Galaxy Astronaut Lamp Space Projector Lights for Room Decoration 360°</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -843,7 +894,7 @@
                 </div>
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -855,7 +906,8 @@
 
                 <div class="price">
                     <h4 class="productname">Galaxy Star Night Light Projector 12 in 1 360° Rotate LED Starry Sky Night</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -864,7 +916,7 @@
 
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -876,7 +928,8 @@
 
                 <div class="price">
                     <h4 class="productname">Star Projector Night Lamp, Space Capsule Star Projection Light</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -886,7 +939,7 @@
                 </div>
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -898,7 +951,8 @@
 
                 <div class="price">
                     <h4 class="productname">Space Capsule Star Light Bluetooth Music Atmosphere Lamps LED Night Light</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -908,7 +962,7 @@
                 </div>
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -920,7 +974,8 @@
 
                 <div class="price">
                     <h4 class="productname">Star Projector Night Light, Space Dog Galaxy Projector Star Light with Remote Control</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
 
@@ -930,7 +985,7 @@
                 </div>
                 <div class="heart-icon">
                      <i class="fa-regular fa-heart" style="color: red;"></i>
-                     <button class="addtocart"><i class="fa-solid fa-cart-plus" style="color: #8d49f3;"></i></button>
+
                 </div>
                 <div class="ratting">
                     <i class="fa-regular fa-star" style="color: #811dc3;"></i>
@@ -942,7 +997,8 @@
 
                 <div class="price">
                     <h4 class="productname">LED Night Light Starry Sky Star Moon Planet Space Projector Lamp Universe</h4>
-                    <p class="price">$99 - $129</p>
+                    <p class="price">$99</p>
+                    <button class="addtocart">Add To Cart</button>
                 </div>
             </div>
         </div>
@@ -957,5 +1013,8 @@
     </div>
 
     <a class="gotopbutton" href="#"><i class="fa-solid fa-circle-arrow-up"></i></a>
+
+    <script  src="../addtocart.js"></script> 
+
 </body>
 </html>
