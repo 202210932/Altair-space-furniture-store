@@ -1,123 +1,178 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-body{
-    background-color: #A992A9;
+body {
+  background-color: #a992a9;
 }
-.bg1{
-    height: 1080px;
-    width: 1920px;
-    width: 100%;
-    min-width: 768px;
-    min-height: 595px;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.75)),url(../Images/BGLPG2.jpg);
+.bg1 {
+  height: 1080px;
+  width: 1920px;
+  width: 100%;
+  min-width: 768px;
+  min-height: 595px;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.75)),
+    url(../Images/BGLPG2.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.navbar {
+  position: sticky;
+  width: 85%;
+  margin: auto;
+  padding: 35px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.altairlogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.altair {
+  width: 160px;
+  height: 40px;
+  cursor: pointer;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px 47.5px 5px 0px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #f5eef8;
+  text-transform: uppercase;
+}
+.navbar ul li::after {
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: #916691;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.25s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+}
+.checkbtn {
+  font-size: 30px;
+  color: #2c2c2c;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: 25px;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+.content h1 {
+  font-size: 40px;
+  margin-top: 40px;
+  color: #f5eef8;
+}
+.content p {
+  color: #f5eef8;
+  margin: 20px auto;
+  font-weight: 100px;
+  line-height: 25px;
+}
+button {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #f5eef8;
+  background: transparent;
+  color: #f5eef8;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+span {
+  background: #916691;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.4s;
+}
+button:hover span {
+  width: 100%;
+}
+button:hover {
+  border: none;
+}
+@media (max-width: 925px) /* For Mobile */ {
+  .navbar ul {
+    display: none;
+  }
+}
+@media (max-width: 425px) /* For Mobile */ {
+  body {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.75)),
+      url(images/BGLPG2.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
-
+  }
 }
-.navbar{
-    width: 85%;
-    margin: auto;
-    padding: 35px 0px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-}
-.logo{
-    width: 100px;
-    height: 100px;
-    cursor: pointer;
-}
-.altair{
-    width: 160px;
-    height: 40px;
-    margin-right: 50%;
-    cursor: pointer;
-}
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 5px 47.5px 5px 0px;
-    position: relative;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color:#F5EEF8;
-    text-transform: uppercase;
-}
-.navbar ul li::after{
-    content: '';
-    height: 3px;
-    width: 0%;
-    background:#916691;
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    transition: 0.25s;
-}
-.navbar ul li:hover::after{
+@media (max-width: 924px) {
+  .checkbtn {
+    display: block;
+    z-index: 2;
+  }
+  ul {
+    position: fixed;
     width: 100%;
-}
-.content{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    margin-top: 25px;
-    transform: translateY(-50%);
+    height: 100vh;
+    background: #e6daeb;
+    top: 80px;
+    left: -100%;
     text-align: center;
-    color: white;
-}
-.content h1{
-    font-size: 40px;
-    margin-top: 40px;
-    color: #F5EEF8;
-    
-}
-.content p{
-    color: #F5EEF8;
-    margin: 20px auto;
-    font-weight: 100px;
-    line-height: 25px;
-}
-button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #F5EEF8;
-    background: transparent;
-    color: #F5EEF8;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-span{
-    background:#916691;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
+    transition: all 0.5s;
+    z-index: 2;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover {
+    background: none;
+    color: purple;
+  }
+  #check:checked ~ ul {
     left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.4s;
-}
-button:hover span{
-    width: 100%;
-}
-button:hover{
-    border: none;
-}
-@media (max-width: 425px)/* For Mobile */ {
-body{
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.75)),url(images/BGLPG2.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
+  }
 }
