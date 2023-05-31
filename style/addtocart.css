@@ -227,6 +227,11 @@ table td:nth-last-child(1) {
   padding:0.5em 0;
   margin:1em 0;
 }
+.product-quantity {
+    width: 4rem;
+    font-size: 2rem;
+    margin-left: 3rem;
+  }
 /* contact-section */
 .contact{
     background-color: #f3f4f6;
@@ -363,4 +368,7 @@ table td:nth-last-child(1) {
     #check:checked ~ ul{
         left: 0;
     }
+    .product-quantity {
+        margin: .5em 0 .5em 0
+      }
 }

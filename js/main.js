@@ -59,7 +59,7 @@ function updateCartTotal() {
             var x = JSON.parse(cart[i]);
             price = parseFloat(x.price.split('₱')[1]);
             productname = x.productname;
-            carttable += `<tr><td>${productname}</td><td>$${price.toFixed(
+            carttable += `<tr><td>${productname}</td><td>₱${price.toFixed(
               2
             )}</td><td><input class="product-quantity" type="number" value="1"></td></tr>`;
             total += price;
